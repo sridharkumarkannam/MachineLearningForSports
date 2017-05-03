@@ -1,4 +1,7 @@
 # MachineLearningForSports
+
+
+
 ===================
 What is our app?
 
@@ -8,6 +11,14 @@ MVC web app with continuous updating database (containing selective players or t
 Viewer: A search tab allowing user to search for a certain player or team and generating a list of near incoming matches; user choose one of the matches to predict
 
 Model: meachine learning trained model to predict the outcome of selected player or team's matches.
+
+
+
+=============================
+How do we train/evaluate the model? (what is our target?)
+
+Using trained/tested result to compare with historical betting 
+
 
 
 ==================
@@ -27,5 +38,16 @@ Short-term(1) TODO:
 
 PHASE I :
 (1) clean data; desgin a data structure for implementation
-(2) Read two papers; considering one or more of the following methods for models: Markvov Chain, Random Forest, mixture of Gaussian, Principle Components Analysis, Bayesian Inference
+
+(2) Read two papers; considering one or more of the following methods for models: Random Forest, mixture of Gaussian, Principle Components Analysis, Bayesian Inference, Markvov Chain.
+
 (3) Come up with a general strcuture of program(UML,CRC)
+
+Few things to consider:
+
+(1) What should our general features for all players; what are some specific features for some selective players; how about matches features??
+
+(2) How do we treate categorial variables when we do regression ?? (ask Albert; he proposed this question)
+
+(3) Should we let the model to decide the features ? Or we decide it our own.
+
