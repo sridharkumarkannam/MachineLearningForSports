@@ -53,6 +53,6 @@ Few things to consider:
 (3) Should we let the model to decide the features ? Or we decide it our own.
 
 
-PHASE I :
+PHASE II :
 
 COMING SOON
