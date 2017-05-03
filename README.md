@@ -37,6 +37,7 @@ Long-term goal: a during-game prediction to predict sports DURING the game; give
 Short-term(1) TODO:
 
 PHASE I :
+
 (1) clean data; desgin a data structure for implementation
 
 (2) Read two papers; considering one or more of the following methods for models: Random Forest, mixture of Gaussian, Principle Components Analysis, Bayesian Inference, Markvov Chain.
@@ -51,3 +52,7 @@ Few things to consider:
 
 (3) Should we let the model to decide the features ? Or we decide it our own.
 
+
+PHASE I :
+
+COMING SOON
