@@ -38,11 +38,19 @@ Short-term(1) TODO:
 
 PHASE I :
 
-(1) clean data; desgin a data structure for implementation
+(1) clean data(done); create database; desgin a data structure and several methods for searching, pointing, sorting for implementation.
+
+Current solution to the DataBase: Relation One contains match details (tournament name; type of court; players); relation Two: player A, Player B inforamtion including historical matches information, ages, L/R, height, weight, nationality, winning ratio on tournament and court, injury and fatigue.
+
+
 
 (2) Read two papers; considering one or more of the following methods for models: Random Forest, mixture of Gaussian, Principle Components Analysis, Bayesian Inference, Markvov Chain.
 
-(3) Come up with a general strcuture of program(UML,CRC)
+Current solution: fit logitstic regression; minimize the entro-cross cost function and use gradient descent to update parameters until convergence.
+
+(3) Hyperpameter optimization using grid search. 
+
+(4) Evavulate the model with the state of art.
 
 Few things to consider:
 
