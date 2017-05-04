@@ -30,7 +30,7 @@ Short-term goal(1): a pre-game prediciton model to predict a one-vs-one game out
 Short-term goal(2): a pre-game prediction to predict team sporst BEFORE the game starts.The model will refer to Springer paper; currently; we use unsupervised learning to model the underlying features of winning of team groups.
 
 
-Long-term goal: a during-game prediction to predict sports DURING the game; given previous rounds result to predict next round in discrete time; given previous x minutes to predict the next y minutes in continous time. Using recurrent LSTM model Time series. 
+Long-term goal: a during-game prediction to predict sports DURING the game; given previous rounds result to predict next round in discrete time; given previous x minutes to predict the next y minutes in continous time. Using recurrent LSTM model  real-time streaming model. 
 
 
 =========
