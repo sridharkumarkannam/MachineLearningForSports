@@ -60,6 +60,7 @@ Few things to consider:
 
 (3) Should we let the model to decide the features ? Or we decide it our own.
 
+(4) If we use Bayesian Inference: what prior do we choose? what's our likelihood function (what if the likelihood function doesn't have closed form) ?
 
 PHASE II :
 
