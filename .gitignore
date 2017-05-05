@@ -99,3 +99,4 @@ ENV/
 
 # Custom patterns
 data
+sandbox*
