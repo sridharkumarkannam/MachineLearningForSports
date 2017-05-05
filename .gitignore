@@ -100,3 +100,4 @@ ENV/
 # Custom patterns
 data
 sandbox*
+temp
