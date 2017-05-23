@@ -44,7 +44,7 @@ def head_to_head(playerA, playerB, date, dataFrame):
     else:
         return 0
 
-if __name__ == __main__:
+if __name__ == "__main__":
 	Clay = []
 	Grass = []
 	Hard = []
