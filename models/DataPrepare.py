@@ -37,9 +37,10 @@ def standardized(x):
 	return np.divide(x-ymin,ymax-ymin)
 
 
-if __name__ == "__main__":
+# make the data suitable for the training model
 
-	# data preparation
+def dataPrepare(datas,path):
+
 
 	file = path + "try.csv"
 	dataFile = read_dataframe(file)
@@ -99,39 +100,7 @@ if __name__ == "__main__":
 
 	trainX, testX, trainY, testY = train_test_split(input, target, test_size = 0.5, random_state = 42)
 
-	clf = linear_model.SGDClassifier(loss="log")
-	clf.fit(trainX,trainY)
-	print(clf.fit(trainX,trainY))
-	print(clf.coef_)
-	print(clf.intercept_)
-
-
-
-	#Now we will test our model
-
-	pred_labels = clf.predict(testX)
-	print(pred_labels)
-
-
-
-	corrected_pred = 0
-	for i in range(len(testX)):
-		if pred_labels[i] == testY[i]:
-			corrected_pred += 1
-	print(corrected_pred/len(testY))
-
-
-
-
-
-
-
-
-
-
-
-
-
+	return [trainX, testX, trainY, testY]
 
 
 
